@@ -36,7 +36,7 @@ export const TodoList = ({ todos, removeTodo, setTodos }: TodoListProps) => {
             ) : (
               <>
                 {todo}
-                <button onClick={() => removeTodo(index)}>Remove</button>
+                <button onClick={() => removeTodo(index)}>Remove abc</button>
                 <button onClick={() => startEditing(index, todo)}>Edit</button>
               </>
             )}
